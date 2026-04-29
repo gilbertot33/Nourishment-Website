@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background: #0a5c36;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta {
+    background: #ffd700;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: black;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: url('../assets/farm.jpg') center/cover no-repeat;
+    color: white;
+}
+
+.btn {
+    background: #ffd700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.features, .impact, .services, .calculator, .contact-form, .about-content {
+    padding: 40px 20px;
+}
+
+.feature-grid, .impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #0a5c36;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error { color: red; }
+.success { color: green; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a5c36;
+    color: white;
+}
